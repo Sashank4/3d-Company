@@ -74,4 +74,46 @@
     color: white;
 }
 
+.serviceButton {
+    background-color: none;
+    cursor: pointer;
+}
 
+.dropdown-menu li {
+    position: relative;
+    list-style: none;
+    }
+.dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+    list-style: none;
+    width: auto;
+    background-color: white;
+    padding: 20px;
+    }
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+    
+    }
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    } 
+
+.ddsmItem {
+    display: block;
+    padding-bottom: 10px;
+}
+
+
+.logoImg {
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.footLinks:hover {
+    color: crimson;
+}

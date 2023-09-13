@@ -21,21 +21,24 @@ function Footer() {
                 <p className="footer-title">Important Link</p>
                 <ul>
                   <li>
-                  <Link   
+                  <Link  className='footLinks' 
                          spy={true}
                          smooth={true}
                          duration={1000}
-                         to="headerbg"
+                         to="/"
                   > Home </Link>
                   </li>
                   <li>
-                  <Link to="services" spy={true} smooth={true} duration={1000} > Services </Link>
+                  <Link className='footLinks' to="/about" spy={true} smooth={true} duration={1000} > About </Link>
                   </li>
                   <li>
-                  <Link to="about-scroll" spy={true} smooth={true} duration={1000}>About Us  </Link>
+                  <Link className='footLinks' to="/Product" spy={true} smooth={true} duration={1000}>Products  </Link>
                   </li>
                   <li>
-                  <Link to="contact" spy={true} smooth={true} duration={1000}> Contact  </Link>
+                  <Link className='footLinks' to="/Contact" spy={true} smooth={true} duration={1000}> Contact  </Link>
+                  </li>
+                  <li>
+                  <Link className='footLinks' to="contact" spy={true} smooth={true} duration={1000}> Services </Link>
                   </li>
                 </ul>
               </div>
